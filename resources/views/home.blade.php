@@ -38,11 +38,7 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">Laravel 5</div>
-    {!! Form::open(['url' => 'home', 'method' => 'post']) !!}
-{!! Form::text('age', 200, ['class' => 'form-control']) !!}
-    {!! Form::submit('Click Me!') !!}
-    {!! Form::close() !!}
+                <div class="title">homeだぜ！！！</div>
             </div>
         </div>
     </body>
