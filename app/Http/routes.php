@@ -14,3 +14,11 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/hoge/huga', function() {
+    return view('hoge.huga');
+});
+
+Route::get('/hoge/atai', function() {
+    return view('hoge.atai', ['hensuumei' => 'hyouzi']);
+});
